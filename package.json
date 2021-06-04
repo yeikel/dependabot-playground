@@ -1,0 +1,23 @@
+{
+  "name": "dependabot-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeikel/dependabot-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeikel/dependabot-playground/issues"
+  },
+  "homepage": "https://github.com/yeikel/dependabot-playground#readme",
+  "dependencies": {
+    "@material/button": "^11.0.0",
+    "@material/ripple": "^11.0.0"
+  }
+}
