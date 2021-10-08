@@ -19,6 +19,6 @@
   "dependencies": {
     "@material/button": "13.0.0",
     "@material/ripple": "11.0.0",
-    "@react-md/button": "2.8.5"
+    "@react-md/button": "2.9.1"
   }
 }
