@@ -7,6 +7,8 @@
   <version>1.0-SNAPSHOT</version>
     <properties>
         <vertx-version>4.1.1</vertx-version>
+         <bta-mixin.version>2021.09.29.06.31-RELEASE</bta-mixin.version>
+
     </properties>
     <name>demo</name>
 
@@ -46,9 +48,55 @@
           <artifactId>codegen</artifactId>
           <version>2.3.0-v200706262000</version>
       </dependency>
-
-
-
   </dependencies>
+  
+  <build>
+  <plugins>
+            <plugin>
+                <groupId>com.github.odavid.maven.plugins</groupId>
+                <artifactId>mixin-maven-plugin</artifactId>
+                <version>${maven-mixin-plugin.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <mixins>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>build-metadata-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>spotless-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>openshift-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>banner-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>test-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>code-quality-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                        <mixin>
+                            <groupId>com.aexp.bta.mixins</groupId>
+                            <artifactId>kafka-resources-mixin</artifactId>
+                            <version>${bta-mixin.version}</version>
+                        </mixin>
+                    </mixins>
+                </configuration>
+            </plugin>
+  </build>
   
 </project>
