@@ -8,9 +8,11 @@
   <name>demo</name>
 
   <dependencies>
+    <dependency>
    <groupId>org.springframework</groupId>
    <artifactId>spring-context</artifactId>
   <version>[6.0.5]</version>
+  </dependency>
   </dependencies>
  
 </project>
