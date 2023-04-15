@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/yeikel/dependabot-playground#readme",
   "dependencies": {
-    "@material/button": "13.0.0",
+    "@material/button": "14.0.0",
     "@material/ripple": "13.0.0",
     "@react-md/button": "4.0.3"
   }
