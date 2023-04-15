@@ -12,6 +12,5 @@
    <artifactId>spring-context</artifactId>
   <version>[6.0.5]</version>
   </dependencies>
-  
-  
+ 
 </project>
