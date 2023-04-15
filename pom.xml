@@ -54,13 +54,6 @@
           <version>2.3.0-v200706262000</version>
       </dependency>
     
-    
-    <dependency>
-          <groupId>org.eclipse.emf</groupId>
-          <artifactId>codegen</artifactId>
-          <version>2.3.0-v200706262000</version>
-      </dependency>
-    
   </dependencies>
   
   <build>
