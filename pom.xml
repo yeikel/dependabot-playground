@@ -13,94 +13,12 @@
 
   <dependencies>
     <dependency>
-    <groupId>org.openjfx</groupId>
-    <artifactId>javafx-controls</artifactId>
-    <version>17.0.2</version>
-   </dependency>
-
-    <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-web</artifactId>
-      <version>${vertx-version}</version>
+        <groupId>org.apache.maven</groupId>
+        <artifactId>maven-core</artifactId>
+        <version>[3.9.1,)</version>
     </dependency>
 
-    <dependency>
-      <groupId>io.vertx</groupId>
-      <artifactId>vertx-codegen</artifactId>
-      <version>${vertx-version}</version>
-    </dependency>
-
-      <dependency>
-          <groupId>org.eclipse.emf</groupId>
-          <artifactId>codegen</artifactId>
-          <version>2.3.0-v200706262000</version>
-      </dependency>
-
-      <dependency>
-          <groupId>net.sf.ingenias</groupId>
-          <artifactId>codegen</artifactId>
-          <version>1.7</version>
-      </dependency>
-    
-        <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>[6.0.5]</version>
-    </dependency>
-    
-    <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
-<dependency>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-core</artifactId>
-    <version>[3.9.1,)</version>
-</dependency>
-
-
-      <dependency>
-          <groupId>org.eclipse.emf</groupId>
-          <artifactId>codegen</artifactId>
-          <version>2.3.0-v200706262000</version>
-      </dependency>
-    
   </dependencies>
   
-  <build>
-  <plugins>
-    <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-                <configuration>
-                    <compilerArgs>
-                        <arg>-XDcompilePolicy=simple</arg>
-                        <arg>-Xplugin:ErrorProne -XepDisableWarningsInGeneratedCode -XepExcludedPaths:.*/target/generated-sources/.*</arg>
-                        <arg>-Amapstruct.defaultComponentModel=spring</arg>
-                    </compilerArgs>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.immutables</groupId>
-                            <artifactId>value</artifactId>
-                            <version>${immutables.version}</version>
-                        </path>
-                        <path>
-                            <groupId>com.google.errorprone</groupId>
-                            <artifactId>error_prone_core</artifactId>
-                            <version>${error-prone.version}</version>
-                        </path>
-                        <path>
-                            <groupId>org.mapstruct</groupId>
-                            <artifactId>mapstruct-processor</artifactId>
-                            <version>${mapstruct.version}</version>
-                        </path>
-                        <path>
-                            <groupId>org.springframework.boot</groupId>
-                            <artifactId>spring-boot-configuration-processor</artifactId>
-                            <version>${spring-configuration-processor.version}</version>
-                        </path>
-                    </annotationProcessorPaths>
-                </configuration>
-            </plugin>
- </plugins>           
-  </build>
   
 </project>
