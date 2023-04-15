@@ -12,12 +12,9 @@
     <name>demo</name>
 
   <dependencies>
-    <dependency>
-        <groupId>org.apache.maven</groupId>
-        <artifactId>maven-core</artifactId>
-        <version>[3.9.1,)</version>
-    </dependency>
-
+   <groupId>org.springframework</groupId>
+   <artifactId>spring-context</artifactId>
+  <version>[6.0.5]</version>
   </dependencies>
   
   
