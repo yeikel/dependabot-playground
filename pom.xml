@@ -47,6 +47,14 @@
         <artifactId>spring-context</artifactId>
         <version>[6.0.5]</version>
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-core -->
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-core</artifactId>
+    <version>[3.8.4,3.8.6]</version>
+</dependency>
+
 
       <dependency>
           <groupId>org.eclipse.emf</groupId>
