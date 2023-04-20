@@ -6,5 +6,5 @@ updates:
       interval: "daily"
   - package-ecosystem: "npm"
     directory: "/"
-    schedule:
+    schedule: 
       interval: "daily"
