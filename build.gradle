@@ -1,0 +1,23 @@
+plugins {
+id 'war'
+}
+
+compileJava {
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+}
+
+tasks.withType(JavaCompile) {
+options.encoding = 'UTF-8'
+}
+
+repositories {
+google()
+mavenCentral()
+mavenLocal()
+}
+
+dependencies {
+implementation 'com.graphql-java:graphql-java-extended-scalars:20.0'
+implementation 'com.graphql-java:graphql-java:20.0'
+}
