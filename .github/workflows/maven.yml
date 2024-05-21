@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@8410ad0602e1e429cee44a835ae9f77f654a6694
+    - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
     - name: Set up JDK
       uses: actions/setup-java@v4
       with:
