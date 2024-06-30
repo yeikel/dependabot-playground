@@ -1,5 +1,0 @@
-[versions]
-gatling_charts_highcharts = { strictly = "3.10.5" }
-
-[plugins]
-gatling-charts-highcharts = { id = "io.gatling.gradle", version.ref = "gatling_charts_highcharts" }
