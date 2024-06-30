@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: "gradle"
-    directory: "gradle_catalog/"
+    directory: "/gradle"
     schedule:
       interval: "daily"
