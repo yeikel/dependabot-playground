@@ -4,3 +4,8 @@ updates:
     directory: "/gradle"
     schedule:
       interval: "daily"
+  
+  - package-ecosystem: "docker"
+    directory: "/docker"
+    schedule:
+      interval: "daily"    
