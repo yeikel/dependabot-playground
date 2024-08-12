@@ -1,1 +1,1 @@
-FROM  --platform=linux/arm64 azul/zulu-openjdk:17-jre-headless@sha256:59fe77a0432aa1393d3b8c8d0cf39b551c2516e899508fa809346b1fe9966d13
+FROM  --platform=linux/arm64 azul/zulu-openjdk:17-jre-headless@sha256:a019cf1c41d72cb81c5f8d7e35b9610904b2ac337e71e1d3e491cb51062226a9
