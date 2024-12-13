@@ -12,3 +12,8 @@ updates:
     ignore:
       - dependency-name: "azul/zulu-openjdk"
         update-types: ["version-update:semver-major"]   
+
+  - package-ecosystem: "maven"
+    directory: "/maven"
+    schedule:
+      interval: "daily"
