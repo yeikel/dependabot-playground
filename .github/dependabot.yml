@@ -17,3 +17,8 @@ updates:
     directory: "/maven"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "pnpm"
+    directory: "/pnpm"
+    schedule:
+      interval: "daily"
