@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "react": "18.3.0"
+    "react": "19.0.0"
   },
   "engines": {
     "pnpm": ">=9.11.0"
