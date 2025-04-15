@@ -1,8 +1,8 @@
 
-FROM azul/zulu-openjdk:8-latest@sha256:f80dd775450e8fd089ddbc52d1e3aa7ea3df45b008591079b3a8ae8f5c6aa90a AS java-8
+FROM azul/zulu-openjdk:8-latest@sha256:023af6e8437b189c46151b05bbbfe6801e944a4f5228fba30aa8a128039625b2 AS java-8
 
-FROM azul/zulu-openjdk:11-latest@sha256:ff62af7e572dec2c82d84f9ee1c099973e66312b941af3dbff9cd0d4a82b9a36 AS java-11
+FROM azul/zulu-openjdk:11-latest@sha256:6e459955d31ecd4085c43914e8fa40dbf35e1bcf508fb5561abd2c85604df100 AS java-11
 
-FROM azul/zulu-openjdk:17-latest@sha256:4e32936bc094d8cdea273d13f0eeca97609f5c7ffd31ca165a5f2f99bf437d6d AS java-17
+FROM azul/zulu-openjdk:17-latest@sha256:ca9eab2c9ae141aff794bf03d09066d43076fee76b3dae6ce848ee1107e5d767 AS java-17
 
-FROM azul/zulu-openjdk:21-latest@sha256:fb1980bbce801e18fef2e32295e1bf7011c3dd24b7afbf991f47089cad1c454a AS java-21
+FROM azul/zulu-openjdk:21-latest@sha256:19983dc07e791c3af3b83573a1d544f4959f36d6edc3569f0e4a7d21215e55c0 AS java-21
