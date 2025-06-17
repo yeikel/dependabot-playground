@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.apache.kafka</groupId>
             <artifactId>connect-api</artifactId>
-            <version>3.2.3</version>
+            <version>3.9.0.redhat-00005</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
