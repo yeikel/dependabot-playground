@@ -37,7 +37,7 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.0</version>
+                <version>3.8.1-jboss-1</version>
                 <configuration>
                     <annotationProcessorPaths>
                         <path>
