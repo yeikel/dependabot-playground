@@ -1,31 +1,5 @@
 version: 2
-registries:
-  redhat:
-    type: maven-repository
-    url: https://maven.repository.redhat.com/ga/
-
 updates:
- # - package-ecosystem: "gradle"
- #   directory: "/gradle"
- #   schedule:
- #     interval: "daily"
-  
- # - package-ecosystem: "docker"
- #   directory: "/docker"
- #   schedule:
- #     interval: "daily"
- #   ignore:
- #     - dependency-name: "azul/zulu-openjdk"
- #       update-types: ["version-update:semver-major"]   
-
   - package-ecosystem: "maven"
-    directory: "/maven"
-    registries: 
-      - redhat
     schedule:
       interval: "daily"
-
- # - package-ecosystem: "npm"
- #   directory: "/pnpm"
- #   schedule:
- #     interval: "daily"
