@@ -1,4 +1,4 @@
-FROM maven:3.9.9 as maven
+FROM maven:3.9.11 as maven
 
 FROM azul/zulu-openjdk:8-latest@sha256:f80dd775450e8fd089ddbc52d1e3aa7ea3df45b008591079b3a8ae8f5c6aa90a AS java-8
 
