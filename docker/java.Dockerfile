@@ -1,3 +1,4 @@
+COPY --from=maven:3.8.1 /usr/share/maven /usr/share/maven
 
 FROM azul/zulu-openjdk:8-latest@sha256:f80dd775450e8fd089ddbc52d1e3aa7ea3df45b008591079b3a8ae8f5c6aa90a AS java-8
 
